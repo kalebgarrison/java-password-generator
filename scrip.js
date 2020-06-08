@@ -14,7 +14,7 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 
 
-// Character variables 
+// Character variables that can be included in your password 
 
 var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var upperArr = upperCase.split("");
@@ -25,12 +25,12 @@ var numbersArr = numbers.split("");
 var symbols = "!#$%&\()*+,-./:;<=>?@^[\\]^_`{|}~";
 var symbolsArr = symbols.split("");
 
-// Generate Password function
+// This functions prompts the user to detail what characters they would like in their password. 
 
 function generatePassword(){
 
     var allCharacters = [];
-    var password = "";
+    var password = [];
     
     var passLength = prompt('How long would you like the password to be?')
 
@@ -58,18 +58,17 @@ else {
     if (allCharacters.length === 0){
         alert('You must select a character to complete the password.')
     }
-    else { 
+    // This runs the loop and places the password characters to be viewed within the text box on the page. 
         for(var i = 0; i < passLength; i++){
 
-            // password = password + upperArr + lowerArr + numbersArr + symbolsArr[Math.floor(Math.random() * passLength)]
+        
             
-            password = password + allCharacters[ Math.floor(Math.random() * allCharacters)];
+            password = password + allCharacters[ Math.floor(Math.random() * allCharacters.length)];
             console.log(password)
         }
         {
             return password;
         }
-    }
     }
 
 }
