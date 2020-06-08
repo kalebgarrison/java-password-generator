@@ -1,3 +1,5 @@
+## javascript-password-generator
+
 ## Description 
 This is a password generator site that I wrote the JavaScript for. This material is designed to meet the standards set by the GT Full-stack program homework requirements. It is built using JavaScript and customized based on mockups in class. 
 
@@ -19,15 +21,12 @@ Any feedback can be provided via email at [kalebgarrison@gmail.com](mailto:kaleb
 
 ## Usage 
 
-[Deployed Portfolio Site](https://kalebgarrison.github.io/responsive-css-homework-02/)
+[Deployed Portfolio Site](https://kalebgarrison.github.io/javascript-password-generator/)
 
-[GitHub Repo Site](https://github.com/kalebgarrison/responsive-css-homework-02)
+[GitHub Repo Site](https://github.com/kalebgarrison/javascript-password-generator)
 
-![alt text](Assets/images/About.png) About Me Page Image 1
+![alt text](assets/images/passwordsite.png) Main Page
 
-![alt text](Assets/images/Contact.png) Contact Page Image 2
-
-![alt text](Assets/images/Portfolio.png) Portfolio Page Image 3
 
 
 
