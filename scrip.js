@@ -58,7 +58,7 @@ else {
     if (allCharacters.length === 0){
         alert('You must select a character to complete the password.')
     }
-    // This runs the loop and places the password characters to be viewed within the text box on the page. 
+    // This runs the loop and places the password characters to be viewed within the password. 
         for(var i = 0; i < passLength; i++){
 
         
@@ -67,6 +67,7 @@ else {
             console.log(password)
         }
         {
+    // Returns the password to the text field on the site
             return password;
         }
     }
